@@ -1,0 +1,54 @@
+body{
+    background-color:black;
+    font-size: 15px;
+    line-height: 1.6rem;
+    color: antiquewhite;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin:15px;
+    padding-top: 10px;
+}
+
+#description{
+    font-style: italic;
+    padding-top: 0px;
+    margin:15px;
+}
+
+.survey-heading{
+    background-color:#2b031d;
+}
+
+form{
+    background: black;
+    border-radius: 5%;
+    padding:15px;
+    margin:10px auto 0px auto;
+}
+
+form-input{
+    display: block;
+}
+
+.submit-button{
+    background:#006600;
+}
+
+/* media queries*/
+@media screen and (min-width:480px)
+          {
+    form{
+        background-color: #4b0532;
+    }
+}
+
+@media screen and (max-width:600px)
+         {  
+     body{
+         text-align: center;
+         background-color: rgb(58, 5, 38);
+     }
+}
